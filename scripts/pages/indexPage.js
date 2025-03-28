@@ -7,6 +7,8 @@ import { isUserExists } from '../components/validate.js';
 import { fetchUsers } from '../api/api.js';
 
 function runIndexPage() {
+	console.log('kör runIndex');
+
 	handleLoginClick();
 	handleRegisterIndexClick();
 	handleBackBtnClick();
