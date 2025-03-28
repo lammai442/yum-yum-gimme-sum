@@ -25,68 +25,68 @@ console.log('Script.js loaded');
 
 const path = window.location.pathname;
 
-if (path === '/pages/' || path === '/pages/index.html') {
+if (path === '/' || path === '/index.html') {
 	runIndexPage();
 	console.log('index.html');
-} else if (path === '/pages/about.html') {
+} else if (path === '/about.html') {
 	checkUserStatus();
 	runAboutPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('about.html');
-} else if (path === '/pages/eta.html') {
+} else if (path === '/eta.html') {
 	checkUserStatus();
 	runEtaPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('eta.html');
-} else if (path === '/pages/history.html') {
+} else if (path === '/history.html') {
 	checkUserStatus();
 	runHistoryPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('history.html');
-} else if (path === '/pages/map.html') {
+} else if (path === '/map.html') {
 	checkUserStatus();
 	runMapPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('map.html');
-} else if (path === '/pages/menu.html') {
+} else if (path === '/menu.html') {
 	checkUserStatus();
 	runMenuPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('menu.html');
-} else if (path === '/pages/order-overview.html') {
+} else if (path === '/order-overview.html') {
 	checkUserStatus();
 	runOrderOverviewPage();
 	renderHamburgerMenu();
 	console.log('order-overview.html');
-} else if (path === '/pages/orders.html') {
+} else if (path === '/orders.html') {
 	checkUserStatus();
 	runOrdersPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('orders.html');
-} else if (path === '/pages/profile.html') {
+} else if (path === '/pprofile.html') {
 	checkUserStatus();
 	runProfilePage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('profile.html');
-} else if (path === '/pages/receipt.html') {
+} else if (path === '/receipt.html') {
 	checkUserStatus();
 	runReceiptPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('receipt.html');
-} else if (path === '/pages/register.html' || '/register.html') {
+} else if (path === '/register.html') {
 	console.log('hej');
 
 	runRegisterPage();
 	console.log('register.html');
-} else if (path === '/pages/editMenu.html') {
+} else if (path === '/editMenu.html') {
 	checkUserStatus();
 	runEditMenuPage();
 	renderHamburgerMenu();
