@@ -885,7 +885,7 @@ hr {
 .leaf-background {
 	height: 100vh;
 	width: 100%;
-	background-image: url(./assets/bg-images/leafbg.svg);
+	background-image: url(../assets/bg-images/leafbg.svg);
 	background-color: var(--light-green-bg-color);
 }
 
