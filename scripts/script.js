@@ -29,7 +29,11 @@ if (
 	path === '/' ||
 	path === '/index.html' ||
 	path === '/yum-yum-gimme-sum/' ||
-	path === 'https://lammai442.github.io/yum-yum-gimme-sum/'
+	path === 'https://lammai442.github.io/yum-yum-gimme-sum' ||
+	window.location.pathname === '/yum-yum-gimme-sum.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum.' ||
+	window.location.pathname ===
+		'https://lammai442.github.io/yum-yum-gimme-sum/.'
 ) {
 	runIndexPage();
 	console.log('index.html');
