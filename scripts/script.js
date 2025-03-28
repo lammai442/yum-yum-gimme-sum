@@ -26,7 +26,9 @@ if (
 	window.location.pathname === '/yum-yum-gimme-sum.html' ||
 	window.location.pathname === '/yum-yum-gimme-sum.' ||
 	window.location.pathname ===
-		'https://lammai442.github.io/yum-yum-gimme-sum/.'
+		'https://lammai442.github.io/yum-yum-gimme-sum/.' ||
+	window.location.pathname ===
+		'https://lammai442.github.io/yum-yum-gimme-sum/index.html.'
 ) {
 	runIndexPage();
 	console.log('index.html');
@@ -83,11 +85,14 @@ if (
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('receipt.html');
-} else if (path === '/register.html') {
-	console.log('hej');
+} else if (
+	path === '/register.html' ||
+	path === 'https://lammai442.github.io/yum-yum-gimme-sum/register.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/register.html'
+) {
+	console.log('register.html');
 
 	runRegisterPage();
-	console.log('register.html');
 } else if (path === '/editMenu.html') {
 	checkUserStatus();
 	runEditMenuPage();
