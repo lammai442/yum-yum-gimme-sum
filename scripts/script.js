@@ -1,10 +1,3 @@
-import { fetchProducts, fetchUsers } from './api/api.js';
-import {
-	getDataFromLocalStorage,
-	saveDataToLocalStorage,
-} from './data/localStorage.js';
-import { highlightActiveBurgerLink } from './utils/utils.js';
-// import { renderHamburgerMenu, openNavMenu } from './components/navMenu.js';
 import { renderHamburgerMenu } from './components/navMenu.js';
 import { runIndexPage } from './pages/indexPage.js';
 import { runAboutPage } from './pages/aboutPage.js';
