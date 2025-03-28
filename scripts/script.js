@@ -25,7 +25,7 @@ console.log('Script.js loaded');
 
 const path = window.location.pathname;
 
-if (path === '/' || path === '/index.html') {
+if (path === '/' || path === '/index.html' || path === '/yum-yum-gimme-sum/') {
 	runIndexPage();
 	console.log('index.html');
 } else if (path === '/about.html') {
@@ -92,5 +92,3 @@ if (path === '/' || path === '/index.html') {
 	renderHamburgerMenu();
 	console.log('editMenu.html');
 }
-
-// calls function that navigates you to menu.html when clicking on "Logga inn" in index page
