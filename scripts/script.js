@@ -81,7 +81,9 @@ if (path === '/pages/' || path === '/pages/index.html') {
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('receipt.html');
-} else if (path === '/pages/register.html') {
+} else if (path === '/pages/register.html' || '/register.html') {
+	console.log('hej');
+
 	runRegisterPage();
 	console.log('register.html');
 } else if (path === '/pages/editMenu.html') {
