@@ -25,7 +25,7 @@ console.log('Script.js loaded');
 
 const path = window.location.pathname;
 
-if (path === '/' || path === '/index.html' || '/yum-yum-gimme-sum/') {
+if (path === '/' || path === '/index.html') {
 	runIndexPage();
 	console.log('index.html');
 } else if (path === '/about.html') {
@@ -69,7 +69,7 @@ if (path === '/' || path === '/index.html' || '/yum-yum-gimme-sum/') {
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('orders.html');
-} else if (path === '/pprofile.html') {
+} else if (path === '/profile.html') {
 	checkUserStatus();
 	runProfilePage();
 	renderHamburgerMenu();

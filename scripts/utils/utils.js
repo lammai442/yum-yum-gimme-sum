@@ -45,18 +45,6 @@ function highlightActiveBurgerLink() {
 	});
 }
 
-// do not need this function anymore, but keeping it just in case for now
-/* export function clickLoginBtn() {
-    let loginButton = document.getElementById('loginBtn');
-
-    loginButton.addEventListener('click', () => {
-        window.location.href = '../pages/menu.html';
-        console.log(
-            'navigated to main.html page after clicking on login button'
-        );
-    });
-} */
-
 function doesBasketItemCountsExist() {
 	let basketItemCounts = getDataFromLocalStorage('basketCount');
 	const basketRef = document.querySelector('#basket');
@@ -115,7 +103,7 @@ export function emptyBasketOrdersPage() {
 	if (checkoutButton) {
 		checkoutButton.textContent = 'Gå till menyn';
 		checkoutButton.addEventListener('click', () => {
-			window.location.href = '/pages/menu.html';
+			window.location.href = '/menu.html';
 		});
 	}
 }
@@ -129,7 +117,7 @@ function handleRegisterIndexClick() {
 }
 function buttonAddLinkToMenu(htmlRef) {
 	htmlRef.addEventListener('click', () => {
-		window.location.href = '/pages/menu.html';
+		window.location.href = '/menu.html';
 	});
 }
 

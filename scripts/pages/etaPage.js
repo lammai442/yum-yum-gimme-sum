@@ -17,12 +17,12 @@ function clickEtaBtns() {
 
 	// Event listener on both buttons to navigate to the correct page
 	newOrderBtn.addEventListener('click', () => {
-		window.location.href = '../pages/menu.html';
+		window.location.href = '../menu.html';
 		console.log('Navigated to menu.html after clicking New Order button');
 	});
 
 	receiptBtn.addEventListener('click', () => {
-		window.location.href = '../pages/receipt.html';
+		window.location.href = '../receipt.html';
 		console.log(
 			'Navigated to receipt.html after clicking Show Receipt button'
 		);

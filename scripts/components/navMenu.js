@@ -149,7 +149,7 @@ function handleKeyboardToggle(event) {
 function handleLogout() {
 	saveDataToLocalStorage('currentUser', null);
 
-	window.location.href = './index.html';
+	window.location.href = '/index.html';
 }
 
 function setupLogoutButton() {
