@@ -22,64 +22,85 @@ if (
 	path === '/' ||
 	path === '/index.html' ||
 	path === '/yum-yum-gimme-sum/' ||
-	path === 'https://lammai442.github.io/yum-yum-gimme-sum' ||
-	window.location.pathname === '/yum-yum-gimme-sum.html' ||
-	window.location.pathname === '/yum-yum-gimme-sum.' ||
-	window.location.pathname ===
-		'https://lammai442.github.io/yum-yum-gimme-sum/.' ||
-	window.location.pathname ===
-		'https://lammai442.github.io/yum-yum-gimme-sum/index.html.'
+	window.location.pathname === '/yum-yum-gimme-sum.index.html'
 ) {
 	runIndexPage();
 	console.log('index.html');
-} else if (path === '/about.html') {
+} else if (
+	path === '/about.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/about.html'
+) {
 	checkUserStatus();
 	runAboutPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('about.html');
-} else if (path === '/eta.html') {
+} else if (
+	path === '/eta.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/eta.html'
+) {
 	checkUserStatus();
 	runEtaPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('eta.html');
-} else if (path === '/history.html') {
+} else if (
+	path === '/history.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/history.html'
+) {
 	checkUserStatus();
 	runHistoryPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('history.html');
-} else if (path === '/map.html') {
+} else if (
+	path === '/map.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/map.html'
+) {
 	checkUserStatus();
 	runMapPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('map.html');
-} else if (path === '/menu.html') {
+} else if (
+	path === '/menu.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/menu.html'
+) {
 	checkUserStatus();
 	runMenuPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('menu.html');
-} else if (path === '/order-overview.html') {
+} else if (
+	path === '/order-overview.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/order-overview.html'
+) {
 	checkUserStatus();
 	runOrderOverviewPage();
 	renderHamburgerMenu();
 	console.log('order-overview.html');
-} else if (path === '/orders.html') {
+} else if (
+	path === '/orders.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/orders.html'
+) {
 	checkUserStatus();
 	runOrdersPage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('orders.html');
-} else if (path === '/profile.html') {
+} else if (
+	path === '/profile.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/profile.html'
+) {
 	checkUserStatus();
 	runProfilePage();
 	renderHamburgerMenu();
 	openDropDownBasket();
 	console.log('profile.html');
-} else if (path === '/receipt.html') {
+} else if (
+	path === '/receipt.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/receipt.html'
+) {
 	checkUserStatus();
 	runReceiptPage();
 	renderHamburgerMenu();
@@ -92,7 +113,10 @@ if (
 	console.log('register.html');
 
 	runRegisterPage();
-} else if (path === '/editMenu.html') {
+} else if (
+	path === '/editMenu.html' ||
+	window.location.pathname === '/yum-yum-gimme-sum/editMenu.html'
+) {
 	checkUserStatus();
 	runEditMenuPage();
 	renderHamburgerMenu();
