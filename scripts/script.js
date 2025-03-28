@@ -24,7 +24,7 @@ import { checkUserStatus } from './components/validateUser.js';
 console.log('Script.js loaded');
 
 const path = window.location.pathname;
-
+runIndexPage();
 if (
 	path === '/' ||
 	path === '/index.html' ||
