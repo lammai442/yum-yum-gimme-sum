@@ -22,7 +22,7 @@ if (
 	path === '/' ||
 	path === '/index.html' ||
 	path === '/yum-yum-gimme-sum/' ||
-	window.location.pathname === '/yum-yum-gimme-sum.index.html'
+	window.location.pathname === '/yum-yum-gimme-sum/index.html'
 ) {
 	runIndexPage();
 	console.log('index.html');
