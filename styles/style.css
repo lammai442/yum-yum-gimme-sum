@@ -8,7 +8,7 @@
 @import url('/styles/orderspage.css');
 @import url('/styles/drop-down-basket.css');
 @import url('/styles/profile.css');
-@import url('/styles/register.css');
+@import url('yum-yum-gimme-sum/styles/register.css');
 @import url('/styles/order-overview.css');
 @import url('/styles/history.css');
 @import url('/styles/editMeny.css');
@@ -41,6 +41,8 @@
 	--darker-gray-bg-color: #353131;
 	--light-green-bg-color: #8ed8bf;
 	--snow-color: #f4f3f1b6;
+	--red-bg-color-transparent: #eb5757d0;
+	--white-bg-color-transparent: rgba(221, 221, 221, 0.829);
 }
 
 /* Utils */
