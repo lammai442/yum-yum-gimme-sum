@@ -87,7 +87,6 @@ if (
 	console.log('receipt.html');
 } else if (
 	path === '/register.html' ||
-	path === 'https://lammai442.github.io/yum-yum-gimme-sum/register.html' ||
 	window.location.pathname === '/yum-yum-gimme-sum/register.html'
 ) {
 	console.log('register.html');
