@@ -25,7 +25,12 @@ console.log('Script.js loaded');
 
 const path = window.location.pathname;
 
-if (path === '/' || path === '/index.html' || path === '/yum-yum-gimme-sum/') {
+if (
+	path === '/' ||
+	path === '/index.html' ||
+	path === '/yum-yum-gimme-sum/' ||
+	path === 'https://lammai442.github.io/yum-yum-gimme-sum/'
+) {
 	runIndexPage();
 	console.log('index.html');
 } else if (path === '/about.html') {
